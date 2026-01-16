@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PhishGuard | Awareness Portal</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation Menu -->
+    <nav>
+      <div class="nav-container">
+        <div class="logo">PHISH<span>GUARD</span></div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#what-is">What is Phishing</a></li>
+          <li><a href="#types">Types</a></li>
+          <li><a href="#examples">Examples</a></li>
+          <li><a href="#recognize">How to Recognize</a></li>
+          <li><a href="#safety">Safety Tips</a></li>
+          <li><a href="#report">Report</a></li>
+          <li><a href="#about">About Us</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Cover Page Section -->
+    <header id="home" class="hero">
+      <div class="hero-content">
+        <h1>Stay Safe in the Digital World</h1>
+        <p>
+          Empowering you to identify, avoid, and report phishing attacks before
+          they strike.
+        </p>
+        <a href="#what-is" class="btn-main">Get Started</a>
+      </div>
+    </header>
+
+    <!-- What is Phishing Section -->
+    <section id="what-is" class="container">
+      <h2 class="section-title">What is Phishing?</h2>
+      <div class="content-box">
+        <p>
+          Phishing is a cybercrime in which a target or targets are contacted by
+          email, telephone, or text message by someone posing as a legitimate
+          institution to lure individuals into providing sensitive data such as
+          personally identifiable information, banking and credit card details,
+          and passwords.
+        </p>
+      </div>
+    </section>
+
+    <!-- Types of Phishing Section -->
+    <section id="types" class="bg-light">
+      <div class="container">
+        <h2 class="section-title">Common Types of Phishing Attacks</h2>
+        <div class="grid">
+          <div class="card">
+            <h3>Spear Phishing</h3>
+            <p>
+              Highly targeted attacks aimed at a specific individual, business,
+              or organization. Attackers customize their emails with the
+              victim’s name and job title.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Whaling</h3>
+            <p>
+              A form of spear phishing aimed at high-profile targets like CEOs
+              or CFOs to steal sensitive corporate information.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Smishing</h3>
+            <p>
+              Phishing that involves a text message (SMS). You might get a text
+              saying your account is locked and you must click a link to unlock
+              it.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Vishing</h3>
+            <p>
+              Voice phishing. Attackers use phone calls to trick victims into
+              giving up personal information over the phone.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Examples Section (Photos) -->
+    <section id="examples" class="container">
+      <h2 class="section-title">Visual Examples</h2>
+
+      <div class="grid">
+        <div class="photo-card">
+          <a href="images/bankphishing.png" target="_blank">
+            <img
+              src="images/bankphishing.png"
+              alt="Fake Bank Phishing Email"
+              class="phish-img"
+            />
+          </a>
+
+          <div class="photo-info">
+            <h4>The "Urgent" Bank Alert</h4>
+            <p>
+              Note the mismatched sender address and the threatening language.
+            </p>
+          </div>
+        </div>
+
+        <div class="photo-card">
+          <a href="images/fakelogin.png" target="_blank">
+            <img
+              src="images/fakelogin.png"
+              alt="Fake Password Reset Phishing Page"
+              class="phish-img"
+            />
+          </a>
+
+          <div class="photo-info">
+            <h4>The Social Media Trap</h4>
+            <p>
+              A fake "Security Alert" designed to steal your login credentials.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How to Recognize Section -->
+    <section id="recognize" class="bg-light">
+      <div class="container">
+        <h2 class="section-title">How to Recognize Phishing</h2>
+        <div class="recognize-list">
+          <div class="list-item">
+            <strong>1. Generic Greetings:</strong> "Dear Customer" instead of
+            your actual name.
+          </div>
+          <div class="list-item">
+            <strong>2. Suspicious Links:</strong> Hover over a link to see the
+            real URL. If it looks strange, don't click.
+          </div>
+          <div class="list-item">
+            <strong>3. Sense of Urgency:</strong> Threats of account closure or
+            legal action.
+          </div>
+          <div class="list-item">
+            <strong>4. Bad Grammar:</strong> Professional companies rarely have
+            spelling mistakes in their official emails.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How to be Safe Section -->
+    <section id="safety" class="container">
+      <h2 class="section-title">Safety Checklist</h2>
+      <div class="grid">
+        <div class="safety-card">
+          <h3>✔ Use MFA</h3>
+          <p>Enable Multi-Factor Authentication on all sensitive accounts.</p>
+        </div>
+        <div class="safety-card">
+          <h3>✔ Update Software</h3>
+          <p>
+            Keep your browser and operating system updated to the latest
+            security versions.
+          </p>
+        </div>
+        <div class="safety-card">
+          <h3>✔ Think Before Clicking</h3>
+          <p>
+            Never click on links or download attachments from unknown senders.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Report Section -->
+    <section id="report" class="bg-light">
+      <div class="container">
+        <h2 class="section-title">Report a Phishing Attack</h2>
+        <form class="report-form">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <select required>
+            <option value="">Select Attack Type</option>
+            <option value="email">Email</option>
+            <option value="sms">SMS (Smishing)</option>
+            <option value="call">Phone Call (Vishing)</option>
+          </select>
+          <textarea
+            placeholder="Describe the incident or paste the suspicious URL here..."
+            rows="5"
+          ></textarea>
+          <button type="submit" class="btn-main">Submit Report</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="container">
+      <h2 class="section-title">About PhishGuard</h2>
+      <p style="text-align: center; max-width: 700px; margin: 0 auto">
+        PhishGuard is a non-profit initiative dedicated to making the internet a
+        safer place through education and community reporting. Our goal is to
+        ensure that everyone, from students to seniors, can recognize digital
+        threats.
+      </p>
+    </section>
+
+    <footer>
+      <p>&copy; 2026 PhishGuard Awareness Website | Secure Your Future</p>
+    </footer>
+  </body>
+</html>
